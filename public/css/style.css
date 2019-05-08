@@ -1086,6 +1086,12 @@ a.article-title:hover {
   line-height: 1.6em;
   font-size: 0.85em;
 }
+#footer-img {
+  text-align: center;
+}
+#animate-img {
+  margin: 0 auto;
+}
 .article-entry pre,
 .article-entry .highlight {
   background: #2d2d2d;
