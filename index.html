@@ -1,48 +1,138 @@
-
 <!DOCTYPE html ut8>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Farmer Art</title>
     <style>
         body {
-           background: radial-gradient(#FFF, #DDD);
+            background: radial-gradient(#FFF, #DDD);
             background-size: cover;
             margin: 0;
         }
-       
-        #main-section {
 
-        }
+        #main-section {}
+
         #header {
             background: #000;
         }
+
         .logo-img {
             height: 50px;
         }
+
         .main-text {
-            margin: 50px;
+            margin: 20px;
             line-height: 2em;
             text-align: center;
         }
+
+        .article {
+            clear: both;
+        }
+
+        .article-post-time {
+            font-weight: bold;
+            color: #054582;
+        }
+
+        .article-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .article-post-time p {
+            margin: 0;
+        }
+
+        .article-post-month {
+            font-size: 30px;
+        }
+
+        .article-post-date {
+            font-size: 40px;
+            border-bottom: 4px solid;
+        }
+
+        .article-title {
+            flex: 1;
+        }
+
+        .article-title p {
+            /* margin-left: 20px; */
+            font-size: 20px;
+            font-weight: bold;
+            color: #383838;
+        }
+
+        .article-body {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 80px;
+        }
     </style>
 </head>
+
 <body>
     <header id="header">
-        <img class="logo-img" src="./logo.png" >
+        <img class="logo-img" src="./logo.png">
     </header>
     <div id='main-section'>
         <div class="main-text">
-            <p>“这个做不了”</p>
-            <p>“又不是不能用”</p>
-            <img src="./codefarmer.art.gif" >
-            <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/xiaolai.mp4'></video>
+            <img src="./codefarmer.art.gif">
+            <div class="article">
+                <div class="article-header">
+                    <div class="article-post-time">
+                        <p class="article-post-month">05</p>
+                        <p class="article-post-date">08</p>
+                    </div>
+                    <div class="article-title">
+                        <p>产品经理与程序员的宿命</p>
+                    </div>
+                </div>
+                <div class="article-body">
+                    <p>程序员都是猝死，而产品经理是别人干死</p>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-header">
+                    <div class="article-post-time">
+                        <p class="article-post-month">05</p>
+                        <p class="article-post-date">02</p>
+                    </div>
+                    <div class="article-title">
+                        <p>程序员的三大宝</p>
+                    </div>
+                </div>
+                <div class="article-body">
+                    <p>“这个做不了”</p>
+                    <p>“又不是不能用”</p>
+                    <p>“你会不会用”</p>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-header">
+                    <div class="article-post-time">
+                        <p class="article-post-month">04</p>
+                        <p class="article-post-date">28</p>
+                    </div>
+                    <div class="article-title">
+                        <p>教你怎么理财</p>
+                    </div>
+                </div>
+                <div class="article-body">
+                    <p>片尾有彩蛋</p>
+                    <video style="width: 100%;" controls src='http://pqi9tutry.bkt.clouddn.com/xiaolai.mp4'></video>
+                </div>
+            </div>
+
         </div>
-        <footer style="text-align: center; color: #EEE;">©codefarmer.ART</footer>
+        <footer style="text-align: center; color: #DDD;">©codefarmer.ART</footer>
     </div>
 
 
 </body>
+
 </html>
