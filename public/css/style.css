@@ -369,8 +369,8 @@ body {
   margin-left: -15px;
 }
 #header-nav {
-  width: 980px;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto 10px;
   text-align: center;
 }
 #header-nav:before,
