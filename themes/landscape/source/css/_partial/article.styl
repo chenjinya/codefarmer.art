@@ -7,9 +7,12 @@
 
 .article-meta
   clearfix()
+  padding: 10px 20px;
 
 .article-date
-  @extend $block-caption
+  text-decoration: none
+  font-size: 12px;
+  color: #888;
   float: left
 
 .article-category
@@ -22,7 +25,10 @@
     content: "\2022"
 
 .article-category-link
-  @extend $block-caption
+  // @extend $block-caption
+  text-decoration: none
+  font-size: 12px;
+  color: #888;
   margin: 0 12px 1em
 
 .article-header
@@ -140,7 +146,7 @@
   clearfix()
   font-size: 0.85em
   line-height: line-height
-  border-top: 1px solid color-border
+  // border-top: 1px solid color-border
   padding-top: line-height
   margin: 0 article-padding article-padding
   a

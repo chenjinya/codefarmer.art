@@ -2,6 +2,10 @@
 menu:
   /: /
   /archives: /archives
+  /news: /categories/资讯/
+  /videos: /categories/视频/
+  /bullshit: /categories/扯淡/
+
 rss: /atom.xml
 
 # Content
@@ -12,7 +16,7 @@ fancybox: true
 sidebar: right
 widgets:
 - category
-- tag
+# - tag
 - tagcloud
 - archive
 - recent_posts
