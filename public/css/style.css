@@ -370,7 +370,7 @@ body {
 }
 #header-nav {
   width: 80%;
-  margin: auto 10px;
+  margin: auto;
   text-align: center;
 }
 #header-nav:before,
